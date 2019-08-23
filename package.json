@@ -1,0 +1,23 @@
+{
+  "name": "demosep3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavo-lopez-wizeline/DemoSep3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gustavo-lopez-wizeline/DemoSep3/issues"
+  },
+  "homepage": "https://github.com/Gustavo-lopez-wizeline/DemoSep3#readme",
+  "dependencies": {
+    "newman": "^4.5.4",
+    "testcafe": "^1.4.1"
+  }
+}
