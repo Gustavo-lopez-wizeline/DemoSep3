@@ -12,14 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/Gustavo-lopez-wizeline/DemoSep3.git"
   },
-  "author": "",
+  "author": "GustavoL",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Gustavo-lopez-wizeline/DemoSep3/issues"
   },
-  "homepage": "https://github.com/Gustavo-lopez-wizeline/DemoSep3#readme",
-  "dependencies": {
-    "newman": "^4.5.4",
-    "testcafe": "^1.4.1"
-  }
+  "homepage": "https://github.com/Gustavo-lopez-wizeline/DemoSep3#readme"
 }
