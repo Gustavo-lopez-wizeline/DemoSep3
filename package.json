@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test_frontend": "testcafe chrome Frontend_Tests/test -e",
-    "test_backend": "newman run Backend_Tests/Todoist_Trial.postman_collection.json -e Backend_Tests/todoistTrial.postman_environment.json",
+    "test_backend": "newman run Backend_Tests/Todoist_Trial.postman_collection.json -e Backend_Tests/todoistTrial.postman_environment.json -r slack",
     "test_all": "npm run test_frontend && npm run test_backend"
   },
   "repository": {
@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Gustavo-lopez-wizeline/DemoSep3/issues"
   },
-  "homepage": "https://github.com/Gustavo-lopez-wizeline/DemoSep3#readme"
+  "homepage": "https://github.com/Gustavo-lopez-wizeline/DemoSep3#readme",
+  "dependencies": {
+    "newman": "^4.5.4",
+    "newman-reporter-slack": "^1.1.0",
+    "testcafe": "^1.4.3"
+  }
 }
