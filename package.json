@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test_frontend": "testcafe chrome Frontend_Tests/test -e",
-    "test_backend": "newman run Backend_Tests/Todoist_Trial.postman_collection.json -e Backend_Tests/todoistTrial.postman_environment.json -r slack",
+    "test_frontend": "testcafe chrome Frontend_Tests/test -e --reporter slack",
+    "test_backend": "newman run Backend_Tests/Todoist_Trial.postman_collection.json -e Backend_Tests/todoistTrial.postman_environment.json -r cli,slack",
     "test_all": "npm run test_frontend && npm run test_backend"
   },
   "repository": {
